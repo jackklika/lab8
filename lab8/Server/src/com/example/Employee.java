@@ -2,10 +2,10 @@ package com.example;
 
 public class Employee implements Comparable<Object>{
 	
-	private String firstName;
-	private String lastName;
-	private String department;
-	private String phoneNumber;
+	public String firstName;
+	public String lastName;
+	public String department;
+	public String phoneNumber;
 	
 	public Employee(String firstName, String lastName, String department, String phoneNum) {
 		this.firstName = firstName;
